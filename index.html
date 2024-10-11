@@ -16,7 +16,7 @@
     <!-- Vincula o arquivo de estilos CSS externo -->
 </head>
 
-<body>
+<body></body>
     <!-- Início do corpo do documento -->
 
     <header>
@@ -40,7 +40,7 @@
                 <h3>Calcule o seu IMC</h3>
                 <!-- Título da seção do formulário -->
 
-                <form>
+                <form onsubmit="calcularImc();">
                     <!-- Início do formulário de cálculo -->
                     <section class="campos">
                         <!-- Seção agrupando todos os campos do formulário -->
@@ -89,6 +89,12 @@
         <!-- Texto do rodapé com o nome do desenvolvedor -->
     </footer>
 
+    <dialog id="dialogResultado">
+        <h1>Resultado do IMC</h1>
+
+    </dialog>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
